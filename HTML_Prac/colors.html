@@ -1,9 +1,33 @@
+<!--
+    description
+    study about :
+    type of color code(rgb, hsl ,hexa) a= alpha opacity of color
+    inline, external and head tag css
+    q : for qoute
+    abbr : abbrivation
+    address
+    cite
+    bdo :  for direction of the text 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--External css by create separte file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- head tag css -->
+    <style>
+        body{
+            background: rgba(253, 119, 249, 0.82);
+            color: #ffffff;
+        }
+    </style>
+
     <title>Document</title>
 </head>
 <body>
@@ -29,10 +53,29 @@
     <p>H<sub>2</sub>O</p>
 
     <!-- Styling in Html -->
+    <!-- Inline Css in attributes -->
     <h4 style=
     "text-align: center;
     background-color: #5181fa;"
     > This is Style</h4>
+
+    <p>
+        <blockquote cite="Lord Krishna">
+            everything happened for a reason
+        </blockquote>
+        <q>
+            everything happened for a reason
+        </q>
+        <br>
+
+        <abbr title="By Lord Krishna">everything happened for a reason</abbr>
+
+        <address>hno 33 </address>
+        <cite>ksbd</cite>
+        <br>
+        <bdo dir="rtl">kaushik</bdo>
+
+    </p>
 
 </body>
 </html>

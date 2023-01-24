@@ -8,6 +8,7 @@ console.log( customerId );
 customerEmail = "ajka@ak.om"
 customerPassword = "21356"
 customerCity = "Delhi"
+let customerName = "anky"
 let customerState ;
 
 

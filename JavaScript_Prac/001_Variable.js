@@ -12,4 +12,4 @@ let customerName = "anky"
 let customerState ;
 
 
-console.table([customerEmail,customerId,customerPassword,customerCity, customerState]);
+console.table( [customerEmail,customerId,customerPassword,customerCity, customerState] );

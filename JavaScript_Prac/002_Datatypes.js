@@ -16,7 +16,8 @@ let state; // Undefined
 // NOTE ---
     // In JS we do not need to define the datatypes link in c++ or java int=9, int a = 889.
     // we just simply define as let name ="aa", let year = 2023. and yes strings are always written in the "".
-    // Primitive Data types
+/* 
+    Primitive Data types
 // number => 2 to power 53
 // bigint => For large the number
 // string => ""
@@ -25,8 +26,9 @@ let state; // Undefined
 // undefined => 
 // symbol => unique
 
-    // non Primitive Datatypes
+    non Primitive Datatypes
 // object
+*/
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object

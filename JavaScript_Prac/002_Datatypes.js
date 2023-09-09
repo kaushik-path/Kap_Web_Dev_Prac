@@ -5,11 +5,11 @@
 console.log(3 
     +
      3) // code readability should be high
-console.log("Hitesh") // Readability is a first priority
+console.log("Kaushik") // Readability is a first priority
 
 
-let name = "hitesh" // String
-let age = 18 // Int
+let name = "Kaushik" // String
+let age = 22 // Int
 let isLoggedIn = false //Boolen
 let state; // Undefined
 
